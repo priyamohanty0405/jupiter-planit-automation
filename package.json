@@ -1,0 +1,40 @@
+{
+  "name": "jupiter-planit-web-automation",
+  "version": "1.0.0",
+  "description": "Automated tests for jupiter planit Website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "prepare": "husky install || true",
+    "generate:allure:report": "allure generate ./allure-results --clean --single-file -o ./allure-report",
+    "open:allure:report": "allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.1.0",
+    "@types/pdf-parse": "^1.1.5",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.7.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-playwright": "^2.5.1",
+    "husky": "^9.1.7",
+    "typescript-eslint": "^8.54.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

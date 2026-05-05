@@ -1,0 +1,24 @@
+# Node / NPM
+node_modules/
+
+# Environment files
+# .env
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+.playwright/.cache/
+
+# Traces, videos, screenshots
+**/trace.zip
+**/*.webm
+**/*.png
+
+# Allure
+allure-results/
+
+# TypeScript
+dist/
+*.tsbuildinfo
