@@ -7,7 +7,7 @@ Automated tests for jupiter planit website
 3. Install the dependencies - npm install
 4. install playwright browsers - npx playwright install
 # 5. How to run tests locally? 
-Tests are located under Tests.
+Tests are located under tests.
 # Run all tests
 npm run test
 # Run test on Chromium browser
