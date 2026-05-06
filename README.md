@@ -3,9 +3,10 @@ Automated tests for jupiter planit website
 
 # Setup Instructions
 1. Prerequisites - Make sure that the following are installed on your machine Node.js >= 18 npm Git.
-2. Clone the Git repository - git clone https://github.com/priyamohanty0405/jupiter-planit-automation
-3. Install the dependencies - npm install
-4. install playwright browsers - npx playwright install
+2. Clone the Git repository - git clone
+   https://github.com/chiki04/jupiter-planit-automation-main/tree/main
+4. Install the dependencies - npm install
+5. install playwright browsers - npx playwright install
 # 5. How to run tests locally? 
 Tests are located under tests.
 # Run all tests
